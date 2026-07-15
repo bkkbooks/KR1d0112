@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR1d0112/v1
 canonical_location: https://kanripo.org/bkk/KR1d0112/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 周禮劉氏音二卷
   identifiers:
@@ -17,11 +17,11 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR1d0112_001.yaml, hash: 'sha256:0e523d0ca28235cbda5168f92e133e711f192ec3aee4930e8c2f0a56051402c0'}
-  - {seq: 2, filename: KR1d0112_002.yaml, hash: 'sha256:6b63974796c6e08dfb3254e2a9b28e3f29f6e84d630110693cab9a2aa79f1c18'}
+  - {seq: 1, filename: KR1d0112_001.yaml, hash: 'sha256:aa8462634e8f197bfbc7696c4dab75a19961870fbf477c4eccd6b4a34b5016c6'}
+  - {seq: 2, filename: KR1d0112_002.yaml, hash: 'sha256:611c1eec2b3367ebca92c336bd4b4f7d9d961d47b016cea37f26c5057e0bbf3e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR1d0112_001.markers.yaml, hash: 'sha256:fd97bd72ca7b366a8ff7e7b7eb6908017540be8938080a8fd8695ab32fffbb0a'}
-  - {seq: 2, role: markers, filename: assets/KR1d0112_002.markers.yaml, hash: 'sha256:80e4a06b05229ce4c300f1c9382dbc08f7ecc892317039b599c32a828634faaf'}
+  - {seq: 1, role: markers, filename: assets/KR1d0112_001.markers.yaml, hash: 'sha256:44900df461dae8cfadc26d21ba149c3f508c9cd4c087fce36a3f5d5708df5f9f'}
+  - {seq: 2, role: markers, filename: assets/KR1d0112_002.markers.yaml, hash: 'sha256:a697c62827b4ad33ae5e56ccdd4bc18a5dfcc84aa5fb0ff18f1fa97546bc8cf5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 卷下
   type: section
   level: 1
-hash: sha256:cdb46e2d9262132a1682096986abdafe08b818b6d5960c8a381dc5d3a63ad72a
+hash: sha256:5923e5b3e6d501e6934595b717ce4eb6e00b87e081eaf602c3d4fea3e73b8300
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
